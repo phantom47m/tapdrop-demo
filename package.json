@@ -1,0 +1,15 @@
+{
+  "name": "tapdrop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TapDrop — file handoff via QR + short code. Static demo (47 Industries × iUSEJOE).",
+  "scripts": {
+    "start": "serve -s . -l tcp://0.0.0.0:${PORT:-3000} --no-clipboard"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
